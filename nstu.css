@@ -1,0 +1,264 @@
+body {
+    font-family: Asap, Arial;
+	font-size: 14px; 
+} 
+.logo {
+    color: black;
+    background-color: #696969;
+    width: 100px;
+    height: 180px;
+
+    
+}	
+.head {
+    color: black;
+    font-family: "Asap", Arial;
+    width: 56.56%;
+    background-color: #696969;
+    position: absolute;
+	top:40px;
+	margin-left:160px;
+	height:150px;
+}
+
+ul.mainmenu {
+    margin: 0;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+ul.mainmenu>li {
+    float: left;
+    margin-top: 0px;
+    border: 1px solid #333;
+    padding-top: 0px;
+}
+ul.mainmenu>li>a {
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    background: #333;
+    margin: 0px: ;
+    border-left: 1px solid black;
+}
+ul.mainmenu>li>a:hover {
+    background: #808080;
+
+}
+.prob{
+    float:left;
+}
+.back {
+    position: relative;
+    background-color: #555;
+    border-bottom: 3px solid #333;
+    width:110%;
+    height:156px;
+    background-image: url('picn.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+   
+}
+
+
+.pst,
+.pt {
+    position:relative;
+    top:20px;
+    background-color: rgba(50, 50, 50, .75);
+    color: white;
+    font-size: 20px;
+    padding: 3px 5px;
+    text-decoration: none;
+    line-height: 48px;
+}
+
+.pt:hover {
+    background-color: rgba(50, 50, 50, .95);
+    text-outline: none;
+    text-decoration: none;
+}
+/*.mainmenu>li{float:left;border:1px solid #ddd;}
+.mainmenu>li>a{display:block;padding:10px;background:#EDEDED;color:#000;text-decoration:none;}
+.mainmenu>li>a:hover{background:#fff;}*/
+
+.right-panel {
+    position:relative;
+    border: 0px solid black;
+    background: #555;
+    color: white;
+    width:150%;
+    height: 156px;
+     border-bottom: 3px solid #333;
+     margin-left:8px;
+      
+
+}
+.feat {
+    position: relative;
+    background-color: #333;
+    color: white;
+    width:25%;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    height: 15px;
+    left:72%;
+    top:5px;
+
+}
+.ni {
+    position: relative;
+    left:4px;
+
+
+
+
+
+}
+.ni ul li {
+    text-decoration: none;
+    color: white;
+    list-style-type: circle;
+    font-family: : Arial, Helvetica, sans-serif;
+}
+.ni ul li a {
+    text-decoration: none;
+    color: white;
+
+
+}
+.falto{
+        width: 100px;
+        padding: 5px;
+        float: left;
+         clear:both;
+}
+
+.left {
+    background-color: #808080;
+    width:15%;
+    height: 160%;
+    position:absolute;
+    top:58.5%;
+    margin-left: -5px;
+   
+
+    
+}
+.left-side {
+    background-color: #323232;
+    position: relative;
+    top:10px;
+    width: 85%;
+   
+
+}
+.left-side h3 {
+    position: relative;
+    margin-top: 10px;
+    color: white;
+}
+.left-side ul li {
+    list-style-type: none;
+    border-bottom: 2px dotted white;
+    line-height: 30px;
+    }
+.left-side ul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 10px;
+    color: white;
+}
+.left-side ul li a:hover{
+background-color: #808080;
+}
+.left-side-middle {
+    background-color: #323232;
+    position: relative;
+    top: 15px;
+    color: white;
+    width: 85%;
+    height: 10%;
+}
+.left-side-last {
+    background-color: #323232;
+    position: relative;
+    top:20px;
+    color: white;
+    width: 85%;
+    height: 15%
+
+}
+.app {
+    background-color: black;
+    position: relative;
+    width: 75%;
+    height: 35%;
+    margin-left: 15px;
+    border: 2px solid white;
+}
+.app a {
+    color: white;
+    text-decoration: none;
+}
+.middle {
+    position:absolute;
+    top:61%;
+    left:18%;
+    clear: right;
+}
+.middle p {
+    font-size: 12pt;
+    line-height: 100%;
+    font-family: "Courgette";
+    text-align: justify;
+    width: 30%;
+}
+.right {
+    background-color: #808080;
+    position: absolute;
+    top:58.5%;
+    left:49%;
+    height: 160%;
+    width: 20%;
+    clear: both;
+   
+    
+}
+.right-side {
+    position: relative;
+    top:15px;
+    width:80%;
+    background-color: #323232;
+}
+.right-side ul li a {
+    color: blue;
+    text-decoration: none;
+}
+.right-side-last {
+    background-color: #323232;
+    left: 5px;
+    width: 80%;
+    height: 5%;
+}
+.right-side-last a {
+    position: relative;
+    left: 15px;
+    top: 20px;
+    color: blue;
+    text-decoration: none;
+}
+.last {
+    position:absolute;
+    top:220%;
+    left:15%;
+    
+   
+
+}
